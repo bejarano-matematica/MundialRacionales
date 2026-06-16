@@ -238,11 +238,11 @@ function playAnimation(type, callback) {
     let video = document.getElementById('anim-video');
     
     if(type === 'goal') {
-        video.src = 'videos/gol.mp4';
+        video.src = 'gol.mp4';
     } else if(type === 'post') {
-        video.src = 'videos/palo.mp4';
+        video.src = 'palo.mp4';
     } else {
-        video.src = 'videos/afuera.mp4';
+        video.src = 'afuera.mp4';
     }
     
     overlay.classList.add('active'); 
